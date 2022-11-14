@@ -7,8 +7,6 @@ metadata:
     kubernetes.io/ingress.class: nginx-nci-service-ingress-default
     meta.helm.sh/release-name: gb
     meta.helm.sh/release-namespace: gb
-  selfLink: >-
-    /apis/networking.k8s.io/v1/namespaces/default/ingresses/gb-ingress
 spec:
   tls:
     - hosts:
