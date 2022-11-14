@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: gb-ingress
-  namespace: default
+  namespace: gb
   annotations:
     kubernetes.io/ingress.class: nginx-nci-service-ingress-default
     meta.helm.sh/release-name: gb
