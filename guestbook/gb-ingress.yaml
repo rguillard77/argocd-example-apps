@@ -10,9 +10,9 @@ metadata:
 spec:
   tls:
     - hosts:
-        - kibana.mcs-pta.mcs.expandium.com
+        - ui.mcs-pta.mcs.expandium.com
   rules:
-    - host: kibana.mcs-pta.mcs.expandium.com
+    - host: ui.mcs-pta.mcs.expandium.com
       http:
         paths:
           - path: /
